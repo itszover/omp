@@ -62,7 +62,7 @@
           "foreground": "#f0f8ff",
           "properties": {
             "folder_separator_icon": "\\",
-            "home_icon": "home",
+            "home_icon": "{{ .UserName }}",
             "style": "agnoster_full"
           },
           "style": "diamond",
