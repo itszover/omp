@@ -69,17 +69,14 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#ffafd2",
-          "leading_diamond": "<#00c7fc> \ue285 </><#ffafd2>{</>",
+          "foreground": "#f0f8ff",
           "properties": {
-            "folder_icon": "\uf07b",
             "folder_separator_icon": "\\",
             "home_icon": "home",
             "style": "agnoster_full"
           },
           "style": "diamond",
           "template": " \ue5ff {{ .Path }} ",
-          "trailing_diamond": "<#ffafd2>}</>",
           "type": "path"
         },
         {
@@ -89,7 +86,7 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": " $ ",
+          "template": "$ ",
           "type": "status"
         }
       ],
