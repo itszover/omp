@@ -5,17 +5,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#ffbebc",
-          "leading_diamond": "<#ff70a6> \ue200 </>",
-          "properties": {
-            "display_host": true
-          },
-          "style": "diamond",
-          "template": "dia",
-          "type": "session"
-        },
-        {
-          "foreground": "#bc93ff",
+          "foreground": "#f0f8ff",
           "properties": {
             "time_format": "02/01 <#ffffff>|</> 15:04"
           },
