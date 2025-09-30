@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
       "alignment": "left",
@@ -29,32 +30,6 @@
       "type": "prompt"
     },
     {
-      "alignment": "right",
-      "segments": [
-        {
-          "foreground": "#a9ffb4",
-          "style": "plain",
-          "type": "text"
-        },
-        {
-          "foreground": "#a9ffb4",
-          "properties": {
-            "style": "dallas",
-            "threshold": 0
-          }
-        },
-        {
-          "properties": {
-            "root_icon": "\uf292 "
-          },
-          "style": "diamond",
-          "template": " \uf0e7 ",
-          "type": "root"
-        }
-      ],
-      "type": "prompt"
-    },
-    {
       "alignment": "left",
       "newline": true,
       "segments": [
@@ -62,11 +37,10 @@
           "foreground": "#f0f8ff",
           "properties": {
             "folder_separator_icon": "\\",
-            "home_icon": "{{ .UserName }}",
             "style": "agnoster_full"
           },
           "style": "diamond",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "type": "path"
         },
         {
